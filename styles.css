@@ -95,6 +95,10 @@ h2 {
   justify-content: center;
   align-items: center;
   align-content: center;
+  font-style: italic;
+  font-size: 1.4vw;
+  font-family: 'Quicksand', sans-serif;
+
 
 
 }
