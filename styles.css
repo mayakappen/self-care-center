@@ -37,8 +37,11 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   flex-wrap: wrap;
   align-content: center;
+
+
 }
 
 .hidden {
@@ -92,6 +95,7 @@ h2 {
   justify-content: center;
   align-items: center;
   align-content: center;
+
 
 }
 

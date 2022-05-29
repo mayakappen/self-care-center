@@ -28,6 +28,7 @@ else if (document.getElementById("rb2").checked) {
     return quoteOutput.innerText = mantras[Math.floor(Math.random() * mantras.length)];
   }
 }
+
 function newQuote() {
   document.getElementById("tacobell").style.visibility = "hidden";
   makeOwn.classList.remove('hidden');
