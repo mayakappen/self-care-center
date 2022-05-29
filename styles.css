@@ -17,6 +17,7 @@ body {
 	align-items: center;
 	align-content: stretch;
   }
+
 h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 2.4vw;
@@ -24,6 +25,7 @@ h1 {
   margin-top: 7vh;
   margin-bottom: 10.5vh;
 }
+
 h2 {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.7vw;
@@ -32,21 +34,19 @@ h2 {
   margin-bottom: 0;
 }
 
+
+
 .boxed {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   flex-wrap: wrap;
   align-content: center;
-
-
 }
 
 .hidden {
   display: none;
-
   }
 
 .buttonz {
@@ -55,6 +55,16 @@ h2 {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+
+
+img#tacobell {
+  margin-top: 2vh;
+  height: 52.5%;
+  width: auto;
+}
+
+
 
 #what-box{
   font-family: 'Quicksand', sans-serif;
@@ -65,7 +75,6 @@ h2 {
   background-color: #ffffff;
   margin-bottom: 14vh;
   margin-top: 1vh;
-
 }
 
 #what-kind  {
@@ -81,9 +90,6 @@ h2 {
   margin-top: 1vh;
 }
 
-
-
-
 #bell-box {
   width: 61.6vw;
   height: 19.6vh;
@@ -98,21 +104,14 @@ h2 {
   font-style: italic;
   font-size: 1.4vw;
   font-family: 'Quicksand', sans-serif;
-
-
-
 }
 
-
-
 #rb2 {
-
 margin-left: 12vw;
 margin-top: 1.2vh;
 margin-bottom: 3.5vh;
 margin-right: 1.3vw;
 transform: scale(1.3);
-
 }
 
 #rb1 {
@@ -152,12 +151,6 @@ transform: scale(1.3);
   border: none;
 }
 
-img#tacobell {
-  margin-top: 2vh;
-  height: 52.5%;
-  width: auto;
-}
-
 #quote-output {
   font-family: 'Quicksand', sans-serif;
   font-style: italic;
@@ -165,7 +158,6 @@ img#tacobell {
   color: rgba(0, 0, 0, 0.8);
   align-self: center;
   margin-bottom:
-
 }
 
 #enter-message {
@@ -177,7 +169,6 @@ img#tacobell {
   font-style: italic;
   width: 80%;
 }
-
 
 #SM {
   align-self: center;
@@ -192,5 +183,4 @@ img#tacobell {
   font-size: 1.25vw;
   border-radius: 4px;
   border: none;
-
 }
