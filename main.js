@@ -51,9 +51,9 @@ function newQuote() {
 function sendMessage() {
   makeOwn.classList.add('hidden');
   quoteOutput.innerText = enterMessage.value
-  if (document.getElementById("rb1").checked) {
+  if ((document.getElementById("rb1").checked) && (enterMessage.value != "")) {
     return affirmations.push(enterMessage.value)
-  } if (document.getElementById("rb2").checked) {
+  } if ((document.getElementById("rb2").checked) && (enterMessage.value != "")) {
     return mantras.push(enterMessage.value)
   }
   else if (enterMessage.value === "") {
