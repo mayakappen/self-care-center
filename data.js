@@ -17,7 +17,7 @@ var mantras = [
 "In the beginning it is you, in the middle it is you and in the end it is you.",
 
 "I love myself.",
-
+  
 "I am present now.",
 
 "Inhale the future, exhale the past.",

@@ -1,8 +1,9 @@
+
 /// Query Selectors ///
 var messageButton = document.getElementById("RM");
 
 var quoteOutput = document.getElementById("quote-output");
-;
+
 var whatButton = document.getElementsByClassName("what-button");
 
 /// Event Listeners ///
