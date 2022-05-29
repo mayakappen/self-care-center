@@ -47,12 +47,16 @@ function newQuote() {
   quoteOutput.innerText = "";
 }
 
+
 function sendMessage() {
   makeOwn.classList.add('hidden');
   quoteOutput.innerText = enterMessage.value
   if (document.getElementById("rb1").checked) {
     return affirmations.push(enterMessage.value)
-  } else if (document.getElementById("rb2").checked) {
+  } if (document.getElementById("rb2").checked) {
     return mantras.push(enterMessage.value)
+  }
+  else if (enterMessage.value === "") {
+    newQuote()
   }
 }
